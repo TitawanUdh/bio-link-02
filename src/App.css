@@ -39,22 +39,22 @@
   }
 }
 
-.bg-black {
+.background-black {
   background-color: rgb(29, 29, 29);
   color: white;
   padding: 15px;
   order: 2 !important;
   padding-top: 80px;
-  height: 100%;
+  height: 85vh !important;
 }
 .bg-white {
-  color: rgb(29, 29, 29);
+  color: rgb(0, 0, 0);
 }
 .items-box {
   display: flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.889);
-  color: rgb(29, 29, 29);
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   padding: 5px;
   margin-top: 15px;
@@ -74,7 +74,7 @@
   object-fit: cover;
 }
 .img-social {
-  width: 15px;
+  width: 20px;
   margin: 0px 10px 10px 10px;
 }
 .text-name {
@@ -89,6 +89,6 @@
 }
 .text-social {
   font-family: "Halant", serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }

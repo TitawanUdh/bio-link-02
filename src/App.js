@@ -43,8 +43,8 @@ function App() {
           <Image className="img-personal" src={imgPersonal} />
         </div>
       </div>
-      <div className="container-box">
-        <div className="bg-black w-100 h-50  ">
+      <div className="">
+        <div className="background-black">
           <div className="contain-black">
             <div className="d-flex justify-content-center">
               <h5 className="text-name">Titawan Udhayananandh</h5>
