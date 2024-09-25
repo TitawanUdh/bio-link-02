@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +37,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-black {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 15px;
+  order: 2 !important;
+  padding-top: 80px;
+  height: 100%;
+}
+.bg-white {
+  color: rgb(29, 29, 29);
+}
+.items-box {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.889);
+  color: rgb(29, 29, 29);
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 15px;
+}
+/* .container-box {
+  padding-top: 60px;
+} */
+.contain-black {
+  margin-bottom: 110px;
+}
+.img-personal {
+  order: 0 !important;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-social {
+  width: 15px;
+  margin: 0px 10px 10px 10px;
+}
+.text-name {
+  font-family: "Halant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-position {
+  font-family: "Halant", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.text-social {
+  font-family: "Halant", serif;
+  font-weight: 200;
+  font-style: normal;
 }
