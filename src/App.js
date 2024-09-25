@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import imgPersonal from "../src/images/personal.jpg";
+import imgPersonal01 from "../src/images/personal-01.png";
 import imgLine from "../src/images/Line.png";
 import imgFace from "../src/images/facebook.png";
 import imgInstagram from "../src/images/Instagram.png";
@@ -32,15 +33,18 @@ function App() {
   ];
   return (
     <>
-      <div 
-      // className="bg-white" 
-      style={{
-        backgroundColor: '#608b9c',
-        height: '110px'
-      }}
+      <div
+        // className="bg-white"
+        style={{
+          backgroundColor: "#608b9c",
+          height: "200px",
+        }}
       >
-        <div className="p-4 pb-2 d-flex justify-content-center">
-          <Image className="img-personal" src={imgPersonal} />
+        <div className=" cover-img">
+            <Image className="img-personal" 
+            // src={imgPersonal} 
+            src={imgPersonal01}
+            />
         </div>
       </div>
       <div className="">
@@ -49,7 +53,7 @@ function App() {
             <div className="d-flex justify-content-center">
               <h5 className="text-name">Titawan Udhayananandh</h5>
             </div>
-            <p className="text-secondary text-center small text-position mt-0 mb-2">
+            <p className="text-secondary text-center text-position mt-0 mb-2">
               Content Creator
             </p>
             <div className="d-flex justify-content-center ">

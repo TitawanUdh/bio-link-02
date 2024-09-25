@@ -40,7 +40,7 @@
 }
 
 .background-black {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 15px;
   order: 2 !important;
@@ -67,14 +67,15 @@
 }
 .img-personal {
   order: 0 !important;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+  /* position: absolute; */
+  width: 180px;
+  height: 180px;
+  /* border-radius: 50%; */
+  /* object-fit: cover; */
+
 }
 .img-social {
-  width: 20px;
+  width: 30px;
   margin: 0px 10px 10px 10px;
 }
 .text-name {
@@ -91,4 +92,9 @@
   font-family: "Halant", serif;
   font-weight: 300;
   font-style: normal;
+}
+.cover-img{
+  padding: 90px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
 }
